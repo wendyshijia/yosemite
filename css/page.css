@@ -34,7 +34,7 @@ body{
     /* font-style: italic; */
 }
 ul{
-    padding: 0
+    padding: 0;
     li{
         list-style-position:inside;
     }
