@@ -3,10 +3,13 @@ body{
 }
 #heading{
     text-align: center;
-    margin: 5em 0 3em;
+    margin: 5em 0 1em;
     h1{
         font-size: 3em;
         margin-bottom: 0;
+        span{
+            display: inline-block;
+        }
     }
  
     h2{
@@ -27,6 +30,9 @@ body{
 .narrow{
     width: 60%;
     display: inline-block;
+    div{
+        margin:2em 0;
+    }
 }
 
 .caption{
@@ -36,7 +42,8 @@ body{
 ul{
     padding: 0;
     li{
-        list-style-position:inside;
+        /* list-style-position:outside; */
+        margin:1em;
     }
 }
 
@@ -45,6 +52,9 @@ ul{
         font-size: 1.2em;
         font-weight: bold;
     }
+}
+footer.container{
+    padding-bottom:2em;
 }
 @media only screen and (max-width: 720px) {
   
