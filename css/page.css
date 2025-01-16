@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(245, 236, 227);
+}
+#heading{
+    text-align: center;
+    margin: 5em 0 3em;
+    h1{
+        font-size: 3em;
+        margin-bottom: 0;
+    }
+
+    h2{
+        font-size: 1.2em;
+        margin-top:0;
+    }
+
+}
+.container{
+    text-align: center;
+    div{
+        text-align: left;
+    }
+    p{
+        padding: 0.8em 0 0;
+    }
+}
+.narrow{
+    width: 60%;
+    display: inline-block;
+}
+
+.caption{
+    font-size: 0.85em;
+    /* font-style: italic; */
+}
+ul{
+    padding: 0
+}
+
+#about{
+    h2{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 720px) {
+  
+    .narrow{
+        width: 100%;
+        display: inline-block;
+    }
+    .span4{
+        width: 100%;
+        max-width: 100%;
+    }
+    .group{
+        display: block;
+    }
+    /* video{
+        min-width: 300px;
+    } */
+  }
