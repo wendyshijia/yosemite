@@ -1,6 +1,10 @@
+*{
+    overflow-x: hidden
+}
 body{
     background-color: rgb(245, 236, 227);
 }
+
 #heading{
     text-align: center;
     margin: 5em 0 1em;
@@ -18,6 +22,7 @@ body{
     }
 
 }
+
 .container{
     text-align: center;
     div{
@@ -25,6 +30,7 @@ body{
     }
     p{
         padding: 0.8em 0 0;
+        text-align: left;
     }
 }
 .narrow{
@@ -46,6 +52,10 @@ ul{
         /* list-style-position:outside; */
         margin:1em;
     }
+}
+
+main{
+    text-align: left;
 }
 
 #about{
