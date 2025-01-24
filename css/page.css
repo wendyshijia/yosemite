@@ -24,13 +24,13 @@ body{
 }
 
 .container{
-    text-align: center;
+    /* text-align: center; */
     div{
         text-align: left;
     }
     p{
         padding: 0.8em 0 0;
-        text-align: left !important ;
+        /* text-align: left !important ; */
     }
 }
 .narrow{
